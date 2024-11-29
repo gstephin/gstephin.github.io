@@ -40,7 +40,7 @@ header .profile-picture {
 
 header h1 {
     font-size: 2.5rem;
-    color: #007bff;
+    color: #dae0e0;
 }
 
 header .subtitle {
@@ -149,4 +149,14 @@ footer {
 
 .job-responsibilities li {
     margin-bottom: 0.5rem;
+}
+@media print {
+    body {
+        background: white;
+        margin: 0;
+    }
+    .container {
+        box-shadow: none;
+        margin: 0;
+    }
 }
