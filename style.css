@@ -12,11 +12,11 @@ body {
 }
 
 .resume-container {
-    width: 8.5in; /* Standard CV width */
-    max-width: 90%; /* Adjust for smaller screens */
+    width: 210mm; /* A4 width */
+    max-width: 100%;
     background: white;
-    padding: 1.5rem;
-    margin: 1rem auto;
+    padding: 20mm; /* A4 padding */
+    margin: 10mm auto;
     border-radius: 8px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
@@ -40,6 +40,21 @@ header p {
     color: #555;
 }
 
+.profile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
 h2 {
     color: #007bff;
     margin-top: 1.5rem;
@@ -58,24 +73,18 @@ ul li {
     margin-bottom: 0.5rem;
 }
 
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 footer {
     text-align: center;
     margin-top: 2rem;
     font-size: 0.9rem;
     color: #777;
-}
-
-.profile {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-}
-
-.profile-picture {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 50%; /* Makes the picture round */
-    object-fit: cover; /* Ensures the image is cropped correctly */
-    border: 3px solid #007bff; /* Adds a border for a polished look */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional shadow */
 }
