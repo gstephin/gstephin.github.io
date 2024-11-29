@@ -45,7 +45,7 @@ header h1 {
 
 header .subtitle {
     font-size: 1.2rem;
-    color: #555;
+    color: ##5b695b;
 }
 
 header nav ul {
@@ -130,7 +130,7 @@ footer {
 
 .job-title {
     font-weight: bold;
-    color: #555;
+    color: ##5b695b;
     margin-top: 0.5rem;
     font-size: 1rem;
 }
