@@ -33,7 +33,7 @@ header .profile-picture {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #007bff;
+    border: 4px solid#5b695b;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 1rem;
 }
@@ -63,7 +63,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #007bff;
+    color:#5b695b;
     font-weight: bold;
 }
 
@@ -80,7 +80,7 @@ header nav ul li a:hover {
 }
 
 h2 {
-    color: #dae0e0;
+    color:#5b695b;
     margin-bottom: 1rem;
 }
 
@@ -95,12 +95,12 @@ h2 {
 }
 
 .skills-list li i, .projects-list li i {
-    color: #007bff;
+    color:#5b695b;
     margin-right: 0.5rem;
 }
 
 .projects-list li a {
-    color: #007bff;
+    color:#5b695b;
     text-decoration: none;
     font-weight: bold;
 }
@@ -113,7 +113,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem 0;
-    background: #007bff;
+    background:#5b695b;
     color: white;
     border-radius: 8px;
 }
@@ -125,7 +125,7 @@ footer {
 .job h3 {
     margin: 0;
     font-size: 1.2rem;
-    color: #007bff;
+    color:#5b695b;
 }
 
 .job-title {
